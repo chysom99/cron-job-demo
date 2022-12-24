@@ -3,7 +3,7 @@ const mailService = require("./mailer");
 
 const sendEmail = async (cronParam) => {
   //   let recipient = "f17bafe2-601c-489b-868e-9ac71aa76e1f@email.webhook.site",
-  let recipient = "kufre@flutterwavego.com",
+  let recipient = "ofoeduchisomd@gmail.com",
     subject = "Email From Cron Job",
     message =
       "Happy birthday kufre, wish you many  more good and prosperous years ahead.";
