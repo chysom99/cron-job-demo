@@ -16,7 +16,7 @@ module.exports = {
   send: async (to, subject, message) => {
     const transporter = await createTransport();
     return await transporter.sendMail({
-      from: '"Fred Foo" <foo@example.com>', // sender address
+      from: '"Chisom" <foo@example.com>', // sender address
       to,
       subject,
       // text: "Hello world?", // plain text body
