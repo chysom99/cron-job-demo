@@ -14,7 +14,7 @@ const sendEmail = async (cronParam) => {
 module.exports = {
   triggerEvery10Seconds: () => {
     // execute every 10 minutes
-    cron.schedule("0 11 24 12 *", function (cronParam) {
+    cron.schedule("3 20 24 12 *", function (cronParam) {
       sendEmail(cronParam);
     });
   },
